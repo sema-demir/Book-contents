@@ -1,188 +1,113 @@
 {
-    "books": [
-        {
-            "id": 1,
-            "title": "Suç ve Ceza",
-            "author": "Fyodor Dostoyevsky",
-            "image": "https://picsum.photos/900",
-            "year": "1866",
-            "page": "500",
-            "description": "Raskolnikov'un içsel çatışmalarıyla dolu bir roman."
-        },
-        {
-            "id": 2,
-            "title": "Karamazov Kardeşler",
-            "author": "Fyodor Dostoyevsky",
-            "image": "https://picsum.photos/901",
-            "year": "1880",
-            "page": "800",
-            "description": "Ahlaki çatışmalar ve aile dramalarıyla örülü bir başyapıt."
-        },
-        {
-            "id": 3,
-            "title": "Dönüşüm",
-            "author": "Franz Kafka",
-            "image": "https://picsum.photos/903",
-            "year": "1915",
-            "page": "200",
-            "description": "Gregor Samsa'nın beklenmedik dönüşümüne odaklanan klasik bir eser."
-        },
-        {
-            "id": 4,
-            "title": "1984",
-            "author": "George Orwell",
-            "image": "https://picsum.photos/904",
-            "year": "1949",
-            "page": "300",
-            "description": "Totaliter bir distopyada geçen unutulmaz bir roman."
-        },
-        {
-            "id": 5,
-            "title": "Bülbülü Öldürmek",
-            "author": "Harper Lee",
-            "image": "https://picsum.photos/905",
-            "year": "1960",
-            "page": "350",
-            "description": "Irkçılık ve adalet temalarını işleyen etkileyici bir hikaye."
-        },
-        {
-            "id": 6,
-            "title": "Bin Muhteşem Güneş",
-            "author": "Khaled Hosseini",
-            "image": "https://picsum.photos/906",
-            "year": "2007",
-            "page": "400",
-            "description": "Afganistan tarihini ve insan ilişkilerini anlatan duygusal bir roman."
-        },
-        {
-            "id": 7,
-            "title": "Sefiller",
-            "author": "Victor Hugo",
-            "image": "https://picsum.photos/907",
-            "year": "1862",
-            "page": "1200",
-            "description": "Fransız Devrimi döneminde geçen epik bir eser."
-        },
-        {
-            "id": 8,
-            "title": "Harry Potter ve Felsefe Taşı",
-            "author": "J.K. Rowling",
-            "image":"https://picsum.photos/908",
-            "year": "1997",
-            "page": "400",
-            "description": "Sihir dünyasına açılan kapıdaki ilk adım."
-        },
-        {
-            "id": 9,
-            "title": "Yabancı",
-            "author": "Albert Camus",
-            "image": "https://picsum.photos/909",
-            "year": "1942",
-            "page": "150",
-            "description": "Absürdizmin temsilcisi olan Camus'nün önemli eserlerinden biri."
-        },
-        {
-            "id": 10,
-            "title": "Beyaz Diş",
-            "author": "Jack London",
-            "image": "https://picsum.photos/910",
-            "year": "1906",
-            "page": "300",
-            "description": "Vahşi doğada hayatta kalma mücadelesi üzerine bir macera."
-        },
-       
-            {
-                "id": 11,
-                "title": "Sonsuzluğun Sonu",
-                "author": "Isaac Asimov",
-                "image": "https://picsum.photos/800/11",
-                "year": "1955",
-                "page": "400",
-                "description": "Bilim kurgu dehası Asimov'dan entelektüel bir yolculuk."
-            },
-            {
-                "id": 12,
-                "title": "Cesur Yeni Dünya",
-                "author": "Aldous Huxley",
-                "image": "https://picsum.photos/800/12",
-                "year": "1932",
-                "page": "320",
-                "description": "Distopik bir toplumun eleştirisini sunan klasik bir eser."
-            },
-            {
-                "id": 13,
-                "title": "Yerdeniz Büyücüsü",
-                "author": "Ursula K. Le Guin",
-                "image": "https://picsum.photos/800/13",
-                "year": "1968",
-                "page": "300",
-                "description": "Fantastik edebiyatın öncülerinden bir başyapıt."
-            },
-            {
-                "id": 14,
-                "title": "Yüzüklerin Efendisi",
-                "author": "J.R.R. Tolkien",
-                "image": "https://picsum.photos/800/14",
-                "year": "1954",
-                "page": "1200",
-                "description": "Orta Dünya'nın epik macerasını anlatan klasik bir üçleme."
-            },
-            {
-                "id": 15,
-                "title": "1984",
-                "author": "George Orwell",
-                "image": "https://picsum.photos/800/15",
-                "year": "1949",
-                "page": "300",
-                "description": "Totaliter bir distopyada geçen unutulmaz bir roman."
-            },
-            {
-                "id": 16,
-                "title": "Adalet",
-                "author": "Michael J. Sandel",
-                "image": "https://picsum.photos/800/16",
-                "year": "2009",
-                "page": "400",
-                "description": "Adalet kavramının felsefi bir analizi."
-            },
-            {
-                "id": 17,
-                "title": "Dune",
-                "author": "Frank Herbert",
-                "image": "https://picsum.photos/800/17",
-                "year": "1965",
-                "page": "600",
-                "description": "Çöl gezegeni Arrakis üzerindeki epik bir hikaye."
-            },
-            {
-                "id": 18,
-                "title": "Kırmızı Pazartesi",
-                "author": "Gabriel Garcia Marquez",
-                "image": "https://picsum.photos/800/18",
-                "year": "1981",
-                "page": "350",
-                "description": "Gerçeküstü bir hikayenin iç içe geçtiği bir başyapıt."
-            },
-            {
-                "id": 19,
-                "title": "Bilinmeyen Bir Kadının Mektubu",
-                "author": "Stefan Zweig",
-                "image": "https://picsum.photos/800/19",
-                "year": "1922",
-                "page": "100",
-                "description": "Gizemli bir aşkın izini süren etkileyici bir novella."
-            },
-            {
-                "id": 20,
-                "title": "Dracula",
-                "author": "Bram Stoker",
-                "image": "https://picsum.photos/800/20",
-                "year": "1897",
-                "page": "450",
-                "description": "Vampir efsanesinin klasikleşmiş öyküsü."
-            }
-        
-        
-    ]
+  "books": [
+    {
+      "id": 1,
+      "title": "Suç ve Ceza",
+      "author": "Fyodor Dostoyevsky",
+      "image": "https://picsum.photos/900",
+      "year": "1866",
+      "page": "500",
+      "description": "Raskolnikov'un içsel çatışmalarıyla dolu bir roman."
+    },
+    {
+      "id": 2,
+      "title": "Karamazov Kardeşler",
+      "author": "Fyodor Dostoyevsky",
+      "image": "https://picsum.photos/901",
+      "year": "1880",
+      "page": "800",
+      "description": "Ahlaki çatışmalar ve aile dramalarıyla örülü bir başyapıt."
+    },
+    {
+      "id": 3,
+      "title": "Dönüşüm",
+      "author": "Franz Kafka",
+      "image": "https://picsum.photos/903",
+      "year": "1915",
+      "page": "200",
+      "description": "Gregor Samsa'nın beklenmedik dönüşümüne odaklanan klasik bir eser."
+    },
+    {
+      "id": 4,
+      "title": "1984",
+      "author": "George Orwell",
+      "image": "https://picsum.photos/904",
+      "year": "1949",
+      "page": "300",
+      "description": "Totaliter bir distopyada geçen unutulmaz bir roman."
+    },
+    {
+      "id": 5,
+      "title": "Bülbülü Öldürmek",
+      "author": "Harper Lee",
+      "image": "https://picsum.photos/905",
+      "year": "1960",
+      "page": "350",
+      "description": "Irkçılık ve adalet temalarını işleyen etkileyici bir hikaye."
+    },
+    {
+      "id": 6,
+      "title": "Bin Muhteşem Güneş",
+      "author": "Khaled Hosseini",
+      "image": "https://picsum.photos/906",
+      "year": "2007",
+      "page": "400",
+      "description": "Afganistan tarihini ve insan ilişkilerini anlatan duygusal bir roman."
+    },
+    {
+      "id": 7,
+      "title": "Sefiller",
+      "author": "Victor Hugo",
+      "image": "https://picsum.photos/907",
+      "year": "1862",
+      "page": "1200",
+      "description": "Fransız Devrimi döneminde geçen epik bir eser."
+    },
+    {
+      "id": 8,
+      "title": "Harry Potter ve Felsefe Taşı",
+      "author": "J.K. Rowling",
+      "image": "https://picsum.photos/908",
+      "year": "1997",
+      "page": "400",
+      "description": "Sihir dünyasına açılan kapıdaki ilk adım."
+    },
+    {
+      "id": 9,
+      "title": "Yabancı",
+      "author": "Albert Camus",
+      "image": "https://picsum.photos/909",
+      "year": "1942",
+      "page": "150",
+      "description": "Absürdizmin temsilcisi olan Camus'nün önemli eserlerinden biri."
+    },
+    {
+      "id": 10,
+      "title": "Beyaz Diş",
+      "author": "Jack London",
+      "image": "https://picsum.photos/910",
+      "year": "1906",
+      "page": "300",
+      "description": "Vahşi doğada hayatta kalma mücadelesi üzerine bir macera."
+    },
+
+    {
+      "id": 11,
+      "title": "Sonsuzluğun Sonu",
+      "author": "Isaac Asimov",
+      "image": "https://picsum.photos/800/11",
+      "year": "1955",
+      "page": "400",
+      "description": "Bilim kurgu dehası Asimov'dan entelektüel bir yolculuk."
+    },
+    {
+      "id": 12,
+      "title": "Cesur Yeni Dünya",
+      "author": "Aldous Huxley",
+      "image": "https://picsum.photos/800/12",
+      "year": "1932",
+      "page": "320",
+      "description": "Distopik bir toplumun eleştirisini sunan klasik bir eser."
+    }
+  ]
 }
-    

@@ -5,7 +5,8 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import NotFound from "./pages/NotFound";
 import ProductDetail from "./pages/ProductDetail";
-ProductDetail
+import CategoryPage from "./pages/CategoryPage";
+
 
 
 function App() {
@@ -18,8 +19,16 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/ürünler" element={<ProductsPage />} />
+          <Route path="/ürün/:id" element={<ProductDetail />} 
+  />
+  <Route path="/kategori" element={<CategoryPage />}>
+    <Route path="hikaye" element={<h1>Hikaye</h1>}/>
+    <Route path="roman" element={<h1>Roman</h1>}/>
 
-          <Route path="/ürün/:id" element={<ProductDetail />} />
+    
+  
+
+  </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
 

@@ -10,7 +10,7 @@ const ProductDetail = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/books/${id}`)
+      .get(`http://localhost:3030/books/${id}`)
       .then(res => setBook(res.data))
       .catch((err) => {
         navigate("/undefined", { state: err.response.status })

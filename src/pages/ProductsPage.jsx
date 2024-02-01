@@ -21,7 +21,7 @@ const ProductsPage = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/books', options)
+      .get('http://localhost:3030/books', options)
       .then(res => setBooks(res.data))
       .catch(err => console.log(err))
   }, [order, query]);
