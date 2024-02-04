@@ -1,8 +1,21 @@
-# React + Vite
+<h1>Book-content React-Vite Project</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Overview
+This project is a dynamic web application developed with React and Vite, incorporating various technologies such as React Router Dom, Bootstrap, JSON Server, and Axios. It provides users with a seamless experience to explore and interact with book-related content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Home Page: Navigate effortlessly between product and category pages.
+Products Page: Sort products alphabetically (A-Z, Z-A) and perform keyword filtering.
+Categories Page: Explore distinct categories like stories and novels (Content in progress).
+Product Details: View detailed information by clicking on individual products.
+Technologies Used
+React
+Vite
+React Router Dom
+Bootstrap
+JSON Server
+Axios
+
+
+
